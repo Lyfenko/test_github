@@ -255,7 +255,6 @@ def parse_command(user_input: str):
             if user_input.lower().startswith(i.lower()):
                 return k, tuple(user_input[len(i):].strip().split(" "))
 
-
 def main():
     while True:
         user_input = input(">>> ")
